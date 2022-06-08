@@ -1,0 +1,19 @@
+gametitle=Guitar Freaks/Drummania V2 (JAA)
+
+// Change logger level
+patchExtended=1,EE,265aec,word,00000008,00000000
+
+// Enable gameinfo
+//patchExtended=1,EE,b577c4,word,1,0
+
+// Enable neverend
+//patchExtended=1,EE,b577cc,word,1,0
+
+// Enable autoplay
+//patchExtended=1,EE,b577d4,word,1,0
+
+// Enable all_music
+patchExtended=1,EE,b577dc,word,1,0
+
+// Enable auto_select
+//patchExtended=1,EE,b577e4,word,1,0

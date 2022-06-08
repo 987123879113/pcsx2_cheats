@@ -1,0 +1,15 @@
+gametitle=Thrill Drive 3 (JAA)
+
+// Change language to English (1) from Japanese (0)
+//patchExtended=1,EE,1EB9790,word,00000001,00000000
+// Change currency to USD (1) from Yen (0)
+//patchExtended=1,EE,1EB9794,word,00000001,00000000
+// Change speed measurement to MPH (1) from km/h (0)
+//patchExtended=1,EE,1EB9798,word,00000001,00000000
+
+// Change language to Japanese (0) from English (1)
+// patchExtended=1,EE,1EB9790,word,00000000,00000001
+// Change currency to Yen (0) from USD (1)
+// patchExtended=1,EE,1EB9794,word,00000000,00000001
+// Change speed measurement to km/h (0) from MPH (1)
+// patchExtended=1,EE,1EB9798,word,00000000,00000001

@@ -1,0 +1,19 @@
+gametitle=Toy's March 2 (JAA)
+
+// Change logger level
+patchExtended=1,EE,265aec,word,00000008,00000000
+
+// Enable auto mode
+//patchExtended=1,EE,1c41e14,word,00000001,00000000
+
+// Enable show scene data
+//patchExtended=1,EE,1c41e1c,word,00000001,00000000
+
+// Enable no save ghost
+//patchExtended=1,EE,1c41e24,word,00000001,00000000
+
+// Enable never end
+//patchExtended=1,EE,1c41e2c,word,00000001,00000000
+
+// Enable force next music
+//patchExtended=1,EE,1c41e34,word,00000001,00000000

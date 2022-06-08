@@ -1,0 +1,35 @@
+gametitle=Guitar Freaks/Drummania V3 (JAA)
+
+// Change logger level
+patchExtended=1,EE,2d3294,word,00000008,00000000
+
+// Most of these don't actually do anything but these are all of the debug flags available in GF V3
+// Enable gameinfo
+//patchExtended=1,EE,1910d2c,word,1,0
+
+// Enable neverend
+//patchExtended=1,EE,1910d34,word,1,0
+
+// Enable autoplay
+//patchExtended=1,EE,1910d3c,word,1,0
+
+// Enable all_music
+patchExtended=1,EE,1910d44,word,1,0
+
+// Enable auto_select
+//patchExtended=1,EE,1910d4c,word,1,0
+
+// Enable netinfo
+//patchExtended=1,EE,1910d54,word,1,0
+
+// Enable easyplay
+//patchExtended=1,EE,1910d5c,word,1,0
+
+// Enable lan_vs
+//patchExtended=1,EE,1910d64,word,1,0
+
+// Enable help_cpu
+//patchExtended=1,EE,1910d6c,word,1,0
+
+// Enable packet_cnt
+//patchExtended=1,EE,1910d74,word,1,0
