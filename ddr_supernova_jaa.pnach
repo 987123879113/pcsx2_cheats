@@ -20,3 +20,6 @@ patchExtended=1,EE,40e5cc,short,0000,0008 // Adjust the 2nd to last value to cha
 patchExtended=1,EE,40e5ce,short,2442,03e0
 patchExtended=1,EE,40e5d0,word,03e00008,27bd0020
 patchExtended=1,EE,40e5d4,word,27bd0020,00000000
+
+// Unlock Beautiful Life
+patchExtended=1,EE,4f4094,word,001c0422,101c0422
