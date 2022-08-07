@@ -23,3 +23,6 @@ patchExtended=1,EE,40e5d4,word,27bd0020,00000000
 
 // Unlock Beautiful Life
 patchExtended=1,EE,4f4094,word,001c0422,101c0422
+
+// Unlock Back Dancers! nonstop course
+patchExtended=1,EE,4f96b4,word,00010000,00010001
