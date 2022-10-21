@@ -1,10 +1,10 @@
 gametitle=DDR Supernova (JAA)
 
 // Change logger level
-patchExtended=1,EE,2d3294,word,00000008,00000002
+patchExtended=1,EE,2d3294,word,00000008,00000004
 
 // Reroute stubbed detailed debug print messages to AVS logger
-patchExtended=1,EE,3dfe00,word,08061574,27bdffb0
+patchExtended=1,EE,3dfe00,word,08061534,27bdffb0
 patchExtended=1,EE,3dfe04,word,00000000,ffa50018
 
 // Autoplay

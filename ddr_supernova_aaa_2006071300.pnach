@@ -1,0 +1,22 @@
+gametitle=DDR Supernova (AAA)
+
+// Change logger level
+patchExtended=1,EE,2d3394,word,00000008,00000004
+
+// Reroute stubbed detailed debug print messages to AVS logger
+patchExtended=1,EE,3deeb0,word,08061574,27bdffb0
+patchExtended=1,EE,3deeb4,word,00000000,ffa50018
+
+// Autoplay
+//patchExtended=1,EE,40f980,word,00000000,14430011
+//patchExtended=1,EE,40f994,word,00000000,1443000c
+
+// Unlock all options on operator menu, including debug menu
+//patchExtended=1,EE,3e51e4,word,10000036,52020036
+//patchExtended=1,EE,3e51e8,word,24020001,0000102d
+
+// Audio offset
+patchExtended=1,EE,40d58c,short,0000,0008 // Adjust the 2nd to last value to change audio offset (signed value, range from -32768 (0x8000) to 32767 (0x7fff)). CHANGE THE 0000, NOT THE 0008!
+patchExtended=1,EE,40d58e,short,2442,03e0
+patchExtended=1,EE,40d590,word,03e00008,27bd0020
+patchExtended=1,EE,40d594,word,27bd0020,00000000

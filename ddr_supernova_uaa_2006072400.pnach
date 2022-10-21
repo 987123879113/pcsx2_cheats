@@ -1,7 +1,7 @@
 gametitle=DDR Supernova (UAA)
 
 // Change logger level
-patchExtended=1,EE,2d3394,word,00000008,00000002
+patchExtended=1,EE,2d3394,word,00000008,00000004
 
 // Reroute stubbed detailed debug print messages to AVS logger
 patchExtended=1,EE,3dfe00,word,08061574,27bdffb0
