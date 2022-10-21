@@ -15,8 +15,10 @@ patchExtended=1,EE,3a2b54,word,00000000,ffa50018
 //patchExtended=1,EE,3b4a64,word,1000004d,5202004d
 //patchExtended=1,EE,3b4a68,word,24020001,0000102d
 
-// Phase max
+// Phase max (online)
 patch=1,EE,198bc7d,byte,07
+// Phase max (offline)
+patch=1,EE,10f4840,byte,07
 
 // Audio offset
 patchExtended=1,EE,48bd74,short,0000,0008 // Adjust the 2nd to last value to change audio offset (signed value, range from -32768 (0x8000) to 32767 (0x7fff)). CHANGE THE 0000, NOT THE 0008!
