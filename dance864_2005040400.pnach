@@ -1,4 +1,4 @@
 gametitle=Dance 86.4
 
 // Debug menu, replaces operator menu
-patchExtended=1,EE,3bd038,word,367b80,35a1f0
+//patchExtended=1,EE,3bd038,word,367b80,35a1f0
