@@ -1,4 +1,4 @@
-gametitle=Guitar Freaks/Drummania V2 (JAA)
+gametitle=Guitar Freaks/Drummania V2 (JAA/AAA 2005101600)
 
 // Change logger level
 patchExtended=1,EE,265aec,word,00000008,00000000
