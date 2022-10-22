@@ -1,0 +1,16 @@
+gametitle=Guitar Freaks/Drummania V (JAA/AA)
+
+// Change logger level
+patchExtended=1,EE,25a964,word,00000008,00000000
+
+// Enable gameinfo
+//patchExtended=1,EE,1c9931c,word,1,0
+
+// Enable neverend
+//patchExtended=1,EE,1c99324,word,1,0
+
+// Enable autoplay
+//patchExtended=1,EE,1c9932c,word,1,0
+
+// Enable all_music
+patchExtended=1,EE,1c99334,word,1,0
