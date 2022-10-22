@@ -1,0 +1,22 @@
+gametitle=Toy's March (JAA)
+
+// Change logger level
+patchExtended=1,EE,258f14,word,00000008,00000002
+
+// Enable auto mode
+//patchExtended=1,EE,1c0353c,word,00000001,00000000
+
+// Enable auto move
+//patchExtended=1,EE,1c03544,word,00000001,00000000
+
+// Enable infinite
+//patchExtended=1,EE,1c0354c,word,00000001,00000000
+
+// Enable inf rank
+//patchExtended=1,EE,1c03554,word,00000001,00000000
+
+// Enable show scene data
+//patchExtended=1,EE,1c0355c,word,00000001,00000000
+
+// Enable show scene frame
+//patchExtended=1,EE,1c03564,word,00000001,00000000
